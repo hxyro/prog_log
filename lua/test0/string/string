@@ -1,0 +1,25 @@
+#!/bin/lua
+local str = "eheheheheheheheh"
+
+print(#str)
+
+print("hello\nworld!")
+print([[hello
+world!]])
+
+str = "KKEEKKEEKK"
+str1 ="kekekekeke"
+print(string.lower(str))
+print(string.upper(str1))
+print(string.len(str))
+print(string.sub(str, 1 ,4))
+print(string.char(65))
+print(string.byte(str,1,2))
+print(string.rep("heh", 20, " "))
+print(string.format("pi: %.2f, pii: %.3f", math.pi , math.pi))
+print(string.find(str, "KK"))
+print(string.match(str, "KK"))
+local a,b = 1,4
+print("a: "..a.." b: "..b)
+hel = "eh oo cool"
+print(string.gsub(hel, "o", "0"))

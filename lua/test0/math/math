@@ -1,0 +1,31 @@
+#!/bin/lua
+
+local str = "22"
+local str1 = "22a"
+
+print(str)
+print(type(str))
+print(type(tonumber(str)))
+print(tonumber(str1))
+
+
+print("---------------------------------------")
+
+print(4 + 9)
+print(4 - 9)
+print(4 * 9)
+print(4 / 9)
+print(4 ^ 9)
+print(4 % 9)
+
+print("---------------------------------------")
+
+math.randomseed(os.time())
+print(math.pi)
+print(math.random(10, 100))
+print(math.min(1,2,3,5,6,7,8,9,09,45))
+print(math.max(1,2,3,5,6,7,8,9,09,45))
+print(math.floor(4.4545))
+print(math.ceil(4.4545))
+print(math.sin(30))
+print(math.cos(20))
