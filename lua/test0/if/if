@@ -1,0 +1,24 @@
+#!/bin/lua
+
+if true then
+    print("True")
+end
+
+local age = 17
+
+if age >= 17 and age <= 100 then
+    print("drive")
+end
+
+name = "qwert"
+
+if name == "qwert" then
+    print("name")
+elseif age > 15 then
+    print("ehh")
+else
+    print("ehh")
+end
+
+local tmp = age > 16 and true or false
+print(tmp)
