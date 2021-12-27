@@ -1,0 +1,27 @@
+#!/bin//lua
+
+function counter()
+local count = -1
+return function()
+            count = count + 1
+            return count
+        end
+end
+    
+local x = counter()
+print(x())
+print(x())
+print(x())
+print(x())
+print(x())
+print(x())
+print(x())
+print(x())
+print(x())
+---------------------------------------------------------------------------
+
+local function eh(...)
+    print(...)
+end
+
+eh(1,2,3,4)

@@ -1,0 +1,26 @@
+#!/bin/lua
+local arr = {1,2,3,8,0}
+table.sort(arr)
+table.insert(arr, 2, "eh")
+table.remove(arr, 1)
+for i=1,#arr do
+print(arr[i])
+end
+arr = "dfd"
+print(arr[i])
+print(arr)
+x = 6
+arr = {2,345,32,12,543,"df","sdds","dsd"}
+print(table.concat(arr, "%"))
+print(table.concat(arr, x))
+local arr = {
+    {1,1,1,1,1,1},
+    {2,2,2,2,2,2,3},
+    {4,5,3,2,2,3,4}
+}
+
+for i=1,#arr do
+    for a=1,#arr[i] do
+        print(arr[i][a])
+    end
+end

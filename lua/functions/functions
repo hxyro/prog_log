@@ -1,0 +1,14 @@
+#!/bin/lua
+
+local function hevv(num)
+    num = num or 5
+    print("heeeee " .. num + 1)
+end
+
+hevv(5)
+
+local function two_rtype(kek)
+    k1 = kek*2
+    return kek , k1
+end
+print(two_rtype(5))

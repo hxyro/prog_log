@@ -1,0 +1,10 @@
+#!/bin/lua
+
+function Fact(num)
+    if num == 1 then
+        return num
+    end
+    return num*Fact(num -1)
+end
+
+print(Fact(5))

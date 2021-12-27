@@ -1,4 +1,5 @@
 #!/bin/lua
+--[[
 for i=1,10 do
     print(i)
 end
@@ -25,3 +26,9 @@ while kkk do
         kkk = false
     end
 end
+]]
+t = 1
+repeat
+    t = t + 1
+    print("eh")
+until t > 10
