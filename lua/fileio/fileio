@@ -1,0 +1,18 @@
+#!/bin/lua
+
+io.output("eh.txt")
+
+io.write([[
+    dfjgsdfgfg
+    sfg
+    sfgsfg
+    fg
+    fg
+    s
+    printgsdfgsfg
+]])
+io.close()
+io.input("eh.txt")
+local file = io.read("*all")
+
+print(file)
