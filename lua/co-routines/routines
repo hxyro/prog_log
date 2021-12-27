@@ -1,0 +1,27 @@
+#!/bin/lua
+
+routine_1 = coroutine.create(
+    function()
+        for i=1,10 do
+            print("routine 1: "..i)
+            print(coroutine.status(routine_1))
+            if i == 5 then
+                coroutine.yield()
+            end
+        end
+    end
+)
+
+local fnc = function()
+    for i=11,20 do
+        print("routine 2: ".. i)
+    end
+        
+end
+
+local x = coroutine.create(fnc)
+coroutine.resume(routine_1)
+print(coroutine.status(routine_1))
+coroutine.resume(routine_1)
+print(coroutine.status(routine_1))
+coroutine.resume(x)
