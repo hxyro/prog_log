@@ -43,6 +43,7 @@ fn main() {
         width: 10,
         height: 60,
     };
+    println!("Can rect1 hold rect2? {}", rect1.area());
     println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
     println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect3));
     println!("sqr: {:#?}", Rectangle::square(3));

@@ -1,7 +1,6 @@
 use std::io::stdin;
 use std::cmp::Ordering;
-use rand::Rng;
-use rand::thread_rng;
+use rand::{Rng, thread_rng};
 fn main() {
     let secret_number = thread_rng().gen_range(1..101);
     loop
