@@ -63,5 +63,4 @@ fn main()
     println!("{:?}", m);
     let null: Option<u32> = None;
     println!("{:?}", null);
-
 }
