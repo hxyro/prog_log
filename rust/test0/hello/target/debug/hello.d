@@ -1,1 +1,1 @@
-/home/xd/code/rust/hello/target/debug/hello: /home/xd/code/rust/hello/src/main.rs
+/home/xd/code/prog_log/rust/test0/hello/target/debug/hello: /home/xd/code/prog_log/rust/test0/hello/src/main.rs
